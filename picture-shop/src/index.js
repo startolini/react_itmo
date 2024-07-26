@@ -1,14 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './index.css';
 import App from './App';
 
-// импорт стилей, общих для всего приложения
-import "./index.css"
 
-// root - элемент в public/index.html, куда встраивается React библиотека
-// <div id="root"></div>
-// В index.html встраивается компонента App, остальные компоненты встраиваются в App
-const container = document.getElementById('root');
-const root = ReactDOM.createRoot(container);
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App/>);
-

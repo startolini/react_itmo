@@ -1,0 +1,11 @@
+/* стили компонента InfoCard */
+.griditem {
+    background-color: #f0f0f0; /* Change to your desired color */
+    border: 2px solid #000; /* Border color and thickness */
+    border-radius: 15px; /* Adjust the radius to your preference */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

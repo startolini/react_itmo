@@ -1,5 +1,5 @@
 // импорт стилей (CSS модуль)
-import header from "./header.module.css"
+import headerStyle from "./header.module.css"
 
 function Logo(){
     return (
@@ -12,7 +12,7 @@ function Logo(){
 function Navbar(){
     return (
         <div>
-            <nav className={header}>
+            <nav className={headerStyle.navbar}>
                 <a href="/">Home</a>
                 <a href="/">Articles</a>
                 <a href="/">About</a>
@@ -25,7 +25,7 @@ function Navbar(){
 export default function Header(){
     return (
         /* использование стилей (CSS модуль) */
-        <header className={header}>
+        <header className={headerStyle.navbar}>
             <Logo/>
             <Navbar/>
         </header>
