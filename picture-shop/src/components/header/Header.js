@@ -3,7 +3,7 @@ import headerStyle from "./header.module.css"
 
 function Logo(){
     return (
-        <div>
+        <div className={headerStyle.nav}>
             <p>Logo here</p>
         </div>
     );
